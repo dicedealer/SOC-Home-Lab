@@ -37,6 +37,8 @@ B. Phase 2:
 ![Mimikatz Detected](https://github.com/dicedealer/SOC-Home-Lab/assets/74645710/3edf1569-b17e-43e0-a621-3c7c510145c3)
 2. We also got logs of our SSH brute force from our victim Ubuntu Machine
 ![SSH detected](https://github.com/dicedealer/SOC-Home-Lab/assets/74645710/5d29c27f-e861-4e42-a196-50e6d9e68b78)
+3. We also configured the Wazuh Configuration file to include a new Active Response Rule
+![Active Response rule](https://github.com/dicedealer/SOC-Home-Lab/assets/74645710/d8ff20e5-c34a-41b4-8ff7-af37a6ae6e63)
 
 
 # Shuffle
