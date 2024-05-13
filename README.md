@@ -1,5 +1,4 @@
-# SOC-Home-Lab
-# Installed Ubuntu VM 1
+
 # SOC-Home-Lab
 The purpose of this project is to host a basic SOC environment locally.
 
