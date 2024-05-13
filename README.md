@@ -31,6 +31,24 @@ B. Phase 2:
 1. We Installed Mimikatz on the Windows VM and a Wazuh Agent
 2. We Configured Sysmon to send Logs to the Wazuh SIEM
 ![Windows Mimikatz](https://github.com/dicedealer/SOC-Home-Lab/assets/74645710/a1d7bac8-ec25-46c3-bdb7-1b0138161e98)
-![Discord Message](https://github.com/dicedealer/SOC-Home-Lab/assets/74645710/7db70f29-5fa2-4d66-852b-9c66ba5ecb9d)
+
+# Ubuntu VM
+1. We Configured Ubuntu VM to install the Wazuh Dashboard and detect specific alerts from Windows.
 ![Mimikatz Detected](https://github.com/dicedealer/SOC-Home-Lab/assets/74645710/3edf1569-b17e-43e0-a621-3c7c510145c3)
+2. We also got logs of our SSH brute force from our victim Ubuntu Machine
+![SSH detected](https://github.com/dicedealer/SOC-Home-Lab/assets/74645710/5d29c27f-e861-4e42-a196-50e6d9e68b78)
+
+
+# Shuffle
+1. This is our Shuffle Workflow
+2. This Includes Alerts From Wazuh > Regex > VirusTotal > Discord
 ![Shuffle Workflow](https://github.com/dicedealer/SOC-Home-Lab/assets/74645710/d160170e-5676-448e-93db-e30c6cdea9e1)
+
+# Kali Attacker Machine
+![Kali Attack](https://github.com/dicedealer/SOC-Home-Lab/assets/74645710/002c8090-7b6d-497d-b1fd-322ad3724d56)
+
+# Discord
+
+1. This is what Discord will Display upon recieving the message from shuffle
+![Discord Message](https://github.com/dicedealer/SOC-Home-Lab/assets/74645710/7db70f29-5fa2-4d66-852b-9c66ba5ecb9d)
+
